@@ -1,0 +1,30 @@
+# Local secrets
+.env
+.env.*
+application.properties
+**/application.properties
+!**/application.example.properties
+
+# Java / Maven
+target/
+out/
+*.class
+*.jar
+*.war
+
+# Frontend
+**/node_modules/
+**/dist/
+*.tsbuildinfo
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
